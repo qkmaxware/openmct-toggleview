@@ -27,7 +27,6 @@ const toggleview = function() {
         openmct.objectViews.addProvider({
             key: view_key,
             name: "Toggle Switch View",
-            cssClass: "icon-box-with-arrow",
             canView: function(domain) {
                 return domain.type === view_key;
             },
