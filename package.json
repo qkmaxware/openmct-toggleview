@@ -1,0 +1,21 @@
+{
+  "name": "openmct-toggleview",
+  "version": "1.0.0",
+  "description": "OpenMCT toggle view for enum based telemetry",
+  "scripts": {
+    
+  },
+  "keywords": [
+    "openmct",
+    "view",
+    "toggle"
+  ],
+  "author": "Colin Halseth",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
