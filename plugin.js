@@ -108,7 +108,7 @@ const toggleview = function() {
 
                         // must unsubscribe from changes
                         if (unsubs != null) {
-                            for (var i = 0; i < composition.length; i++) {
+                            for (var i = 0; i < unsubs.length; i++) {
                                 if (unsubs[i]) {
                                     unsubs[i]();
                                 }
