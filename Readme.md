@@ -3,6 +3,7 @@ This simple plugin allows for telemetry configured for string based enumerations
 
 ## Usage
 Create a new object of type `Toggle Switch`. You must provide a string for the name of the enumeration that is considered healthy. Edit the object and drag onto the object's view any telemetry objects that you wish to observe. Then simply watch as the toggles switch between red and green as the status of the telemetry changes. 
+![](images/usage-example.png)
 
 ## Installation
 If you are using my [OpenMCT Template](https://github.com/qkmaxware/openmct-template.git) simply clone this repo into `./plugins/openmct-toggleview` and add the following config to the server's package.json.
